@@ -7,8 +7,7 @@
 '''
 
 class Params:
-    BATCH_SIZE = 48
-    EPOCHS = 10000 # Number of Epochs
-    LEARNING_RATE = 0.001 # Learning Rate
-    MOMENTUM = 0.9 # Momentum in SGD Optimizer
-    WEIGHT_DECAY = 0.05 # For SGD Optimizer
+    BATCH_SIZE = 32
+    EPOCHS = 5000
+    LEARNING_RATE = 0.00007 
+    WEIGHT_DECAY = 0.0005
